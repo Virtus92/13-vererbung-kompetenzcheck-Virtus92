@@ -90,5 +90,6 @@ In deinem Hauptprogramm erstellst du eine Liste mit verschiedensten Fahrzeugen. 
 - Der:die Teilnehmer:in kann erklären, warum diese Klassen/Methoden als `abstract` deklariert wurden.
 - Die Variablen-/Methoden-/Klassennamen sind aussagekräftig
 - Der Code ist gut strukturiert (Siehe Clean Code)
+- Der Code ist in GITHub eingecheckt
 
 Zurück zur [Startseite](README.md)
