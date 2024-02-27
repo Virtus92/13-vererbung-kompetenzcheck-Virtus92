@@ -2,10 +2,10 @@
 
 ## Lernziele
 Der:die Teilnehmer:in kann nach erfolgreicher Absolvierung dieses Themas:
-- erklären, was Vererbung bedeutet
-- erklären, wozu Vererbung verwendet wird
-- erklären, wie die Vererbung von Klassen funktioniert
-- im Rahmen der Aufgaben, die Vererbung sinnvoll einsetzen
+- Erklären, was Vererbung bedeutet
+- Erklären, wozu Vererbung verwendet wird
+- Erklären, wie die Vererbung von Klassen funktioniert
+- Im Rahmen der Aufgaben, die Vererbung sinnvoll einsetzen
 
 ## Inhaltsverzeichnis
 
