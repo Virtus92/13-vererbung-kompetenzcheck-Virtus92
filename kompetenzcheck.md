@@ -2,18 +2,7 @@
 
 Implementiere ein Programm, dass Fahrzeuge verwaltet.
 
-- Fahrzeug 
-  - hat zumindest folgende Eigenschaften:
-    - gehört zu einer Person/Firma
-    - eine definierte Anzahl an Rädern
-    - einen Tachostand
-    - eine definierte Durchschnittsgeschwindigkeit
-
-  - kann:
-    - huppen
-    - von A nach B fahren
-
-Als Fahrzeug gelten PKW, LKW und Fahrrad.
+Als Fahrzeug gelten PKW, LKW, Fahrrad und Lastenfahrrad. Implementiere also folgende Klassen:
 
 - PKW:
   - hat folgende Eigenschaften:
@@ -88,8 +77,8 @@ In deinem Hauptprogramm erstellst du eine Liste mit verschiedensten Fahrzeugen. 
 
 - Die richtigen Klassen und Methoden sind als `abstract` deklariert und entsprechend in den Subklassen implementiert.
 - Der:die Teilnehmer:in kann erklären, warum diese Klassen/Methoden als `abstract` deklariert wurden.
-- Die Variablen-/Methoden-/Klassennamen sind aussagekräftig
-- Der Code ist gut strukturiert (Siehe Clean Code)
-- Der Code ist in GITHub eingecheckt
+- Die Variablen-/Methoden-/Klassennamen sind aussagekräftig.
+- Der Code ist gut strukturiert (Siehe Clean Code).
+- Der Code ist in GITHub eingecheckt:
 
 Zurück zur [Startseite](README.md)
