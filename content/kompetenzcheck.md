@@ -66,7 +66,7 @@ Lastenfahrrad:
 
 Implementiere die entsprechenden Klassen. Überlege dir gut, ob und welche Klassen und Methoden als `abstract` definiert werden sollen.
 
-Da die Ausgabe in der Konsole erfolgen soll, erfolgt huppen durch eine Konsolenausgabe. Auch das fahren erfolgt, indem eine Konsolenausgabe folgendes darstellt:
+Da die Ausgabe in der Konsole erfolgen soll, erfolgt huppen durch eine Konsolenausgabe. Auch das Fahren erfolgt, indem eine Konsolenausgabe folgendes darstellt:
 - Abfahrtsort und Abfahrtszeit (jetzt). Die Ausgabe von Datum/Zeit erfolgt im Format: *"JJJJ-MM-TT HH:mm:ss"*
 - Dauer der Reise (ACHTUNG! Kilometerstand aktualisieren!)
 - Ankunftsort und Ankunftszeit
