@@ -7,7 +7,7 @@ Als Fahrzeug gelten PKW, LKW, Fahrrad und Lastenfahrrad. Implementiere also folg
 - PKW:
   - hat folgende Eigenschaften:
     - gehört zu einer Person/Firma
-    - einen Tachostand
+    - einen Kilometerstand
     - eine definierte Durchschnittsgeschwindigkeit
     - 4 Räder
     - einen Motor
@@ -22,7 +22,7 @@ Als Fahrzeug gelten PKW, LKW, Fahrrad und Lastenfahrrad. Implementiere also folg
 - LKW:
   - hat folgende Eigenschaften:
     - gehört zu einer Person/Firma
-    - einen Tachostand
+    - einen Kilometerstand
     - mindestens 6 Räder
     - eine definierte Durchschnittsgeschwindigkeit
     - einen Motor
@@ -39,7 +39,7 @@ Als Fahrzeug gelten PKW, LKW, Fahrrad und Lastenfahrrad. Implementiere also folg
 Fahrrad:
   - hat folgende Eigenschaften:
     - gehört zu einer Person/Firma
-    - einen Tachostand
+    - einen Kilometerstand
     - eine definierte Durchschnittsgeschwindigkeit
     - 2 Räder
     - 1-2 Sitzplätzen
@@ -54,7 +54,7 @@ Fahrrad:
 Lastenfahrrad:
   - hat folgende Eigenschaften:
     - gehört zu einer Person/Firma
-    - einen Tachostand
+    - einen Kilometerstand
     - eine definierte Durchschnittsgeschwindigkeit
     - mind. 2 Räder
 
@@ -68,7 +68,7 @@ Implementiere die entsprechenden Klassen. Überlege dir gut, ob und welche Klass
 
 Da die Ausgabe in der Konsole erfolgen soll, erfolgt huppen durch eine Konsolenausgabe. Auch das fahren erfolgt, indem eine Konsolenausgabe folgendes darstellt:
 - Abfahrtsort und Abfahrtszeit (jetzt). Die Ausgabe von Datum/Zeit erfolgt im Format: *"JJJJ-MM-TT HH:mm:ss"*
-- Dauer der Reise
+- Dauer der Reise (ACHTUNG! Kilometerstand aktualisieren!)
 - Ankunftsort und Ankunftszeit
 
 In deinem Hauptprogramm erstellst du eine Liste mit verschiedensten Fahrzeugen. Anschließend lässt du alle Fahrzeuge von Linz nach Graz (220km), Linz nach Wien (180km), Wien nach Graz (200km) fahren und anschließend wieder retour. 
