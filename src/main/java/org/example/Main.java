@@ -7,9 +7,9 @@ public class Main {
     public static void main(String[] args) {
         List<Fahrzeug> list = new ArrayList<>();
         Object motor = new Object();
-        Fahrrad bike1 = new Fahrrad("MTB", 100, 30, 1);
-        Lastenfahrrad lBike1 = new Lastenfahrrad("KTM", 200, 20, 4);
-        Pkw auto1 = new Pkw("BMW", 100000, 130, motor, 300, 4);
+        Fahrrad bike1 = new Fahrrad("MTB", 100, 30, 1, false);
+        Lastenfahrrad lBike1 = new Lastenfahrrad("KTM", 200, 20, 4, 500);
+        Pkw auto1 = new Pkw("BMW", 100000, 130, 4, motor, 300, 7);
         Lkw lkw1 = new Lkw("Mercedes", 100000, 6, 200, motor, 200, 3, true, 20);
 
         list.add(bike1);

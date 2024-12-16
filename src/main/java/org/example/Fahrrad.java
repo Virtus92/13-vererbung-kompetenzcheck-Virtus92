@@ -1,11 +1,9 @@
 package org.example;
 
 public class Fahrrad extends Fahrzeug{
-    public Fahrrad(String company, int km, int speed, int seats) {
-        super(company, km, speed, 2, seats);
-        validate(km, "Km");
-        validate(speed, "Speed");
-        validate(seats, "seats");
+    public Fahrrad(String company, int km, int speed, int seats, boolean isPushed) {
+        super(company, km, speed, 2, seats, isPushed);
+        super.validateBike();
     }
 
     @Override
