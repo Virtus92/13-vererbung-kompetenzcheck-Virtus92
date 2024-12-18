@@ -8,7 +8,7 @@ public class Main {
         List<Fahrzeug> list = new ArrayList<>();
         Object motor = new Object();
         Fahrrad bike1 = new Fahrrad("MTB", 100, 30, 1, false);
-        Lastenfahrrad lBike1 = new Lastenfahrrad("KTM", 200, 20, 4, 500);
+        Lastenfahrrad lBike1 = new Lastenfahrrad("KTM", 200, 20, 4, 500, 2);
         Pkw auto1 = new Pkw("BMW", 100000, 130, 4, motor, 300, 7);
         Lkw lkw1 = new Lkw("Mercedes", 100000, 6, 200, motor, 200, 3, true, 20);
 
@@ -17,7 +17,7 @@ public class Main {
         list.add(auto1);
         list.add(lkw1);
 
-//        auto1.drive("Linz", "Wien", 180);
+//        auto1.driveFullSpeed();
 
         for (int i = 0; i<list.size(); i++) {
             System.out.println();
